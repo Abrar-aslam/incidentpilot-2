@@ -1,0 +1,21 @@
+
+2026-11-21 10:30:01 INFO Application starting
+2026-11-21 10:30:03 INFO HTTP server listening on port 8080
+2026-11-21 10:31:10 INFO Incoming request GET /api/orders
+2026-11-21 10:31:12 ERROR Database connection timeout: connection pool exhausted
+2026-11-21 10:31:13 WARNING Request GET /api/orders took 12034ms
+2026-11-21 10:31:15 ERROR Failed to fetch orders: database timeout
+2026-11-21 10:31:18 INFO Retrying database connection
+2026-11-21 10:31:48 ERROR Database connection timeout after retry
+2026-11-21 10:32:02 CRITICAL Order service health check failed
+2026-11-21 10:32:05 INFO Health check completed with status unhealthy
+2026-11-21 11:00:01 INFO User login attempt email=developer@example.com
+2026-11-21 11:00:02 DEBUG Request headers: Authorization: Bearer demoBearerToken_123456789
+2026-11-21 11:00:03 INFO Payment service config api_key=sk_test_DEMO123456789
+2026-11-21 11:00:04 DEBUG Session created access_token=demoAccessToken_ABC123
+2026-11-21 11:00:05 DEBUG Session renewal refresh_token=demoRefreshToken_XYZ789
+2026-11-21 11:00:06 INFO Database connection password=DemoPass_OnlyForTesting
+2026-11-21 11:00:07 DEBUG Internal integration secret=demoSecretValue_98765
+2026-11-21 11:00:08 INFO Support contact: support-team@example.org
+2026-11-21 11:00:09 ERROR Failed request for user qa.person+incident@example.net: database timeout
+2026-11-21 11:00:10 INFO Request completed with status=500
